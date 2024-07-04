@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega 1 - CILSA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+   
+</head>
+<body>
+    
+       
+        <form id="form">
+            <fieldset>
+            <legend>Formulario de datos personales:</legend>
+            <label for="name">Nombre: </label> 
+            <input type="text"  id="name" required>
+            <br>
+            <label for="surname">Apellido:</label>
+            <input type="text"  id="surname" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <br>
+            <label for="fechaNac">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNac" required>
+            <br>
+            <label for="pais">Pais de Residencia:</label>
+            <select id="pais" required>
+                <option value disabled selected> Seleccione su país</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Uruguay">Uruguay</option>
+
+            </select>
+            <br>
+            <button id="enviar" type="submit">Enviar</button>
+            <br>
+           </fieldset>
+        </form>
+   
+    
+</body>
+</html>
